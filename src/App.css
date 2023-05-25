@@ -1,0 +1,739 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/* This is a nav css */
+.header {
+  background: linear-gradient(to bottom, white 50%, black 50%);
+}
+
+.top-header {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.input5 {
+  border: 1px solid #ddd;
+  height: 2rem;
+  border-radius: 4px;
+  width: 10rem;
+}
+
+.d-flex {
+  position: relative;
+  left: 36rem;
+  bottom: 3.2rem;
+  align-items: center;
+}
+
+.ricon {
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 2.8rem;
+  right: 0rem;
+}
+
+a.logo {
+  display: block;
+  width: 8rem;
+}
+
+.name {
+  display: none;
+}
+
+a.put {
+  position: relative;
+  right: 1.5rem;
+}
+
+.btn {
+  border: 1px solid #ddd !important;
+  height: 2rem !important;
+  border-radius: 4px !important;
+  background-color: #55b142 !important;
+}
+
+.icon {
+  margin: 0px;
+  padding: 0px;
+  width: 2rem;
+}
+
+
+.bot-header {
+  position: relative;
+  right: 15rem;
+  color: white;
+  /* background-color: #000; */
+}
+
+.tab {
+
+  color: white !important;
+}
+
+.tab {
+  margin-left: 2rem;
+  color: #55b142 !important;
+  text-decoration: none;
+}
+
+.tab:hover {
+  color: white !important;
+}
+
+.opt {
+  background-color: white;
+  color: black;
+}
+
+#support {
+  text-decoration: none;
+}
+
+#icon3 {
+  color: white;
+  text-decoration: none;
+}
+
+/* This is a footer css ; */
+
+.foot1 {
+  background-color: #55b142;
+  margin-top: 3rem;
+}
+
+.r1 {
+  height: 250px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.head1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+}
+
+#input3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 25rem;
+  border-radius: 1em;
+  border: none;
+}
+
+#btn2 {
+  width: 8rem;
+  border: 1px solid #ddd;
+  border-radius: 1em;
+  background-color: #55b142;
+  color: #ffff;
+  position: relative;
+  right: 1.5rem;
+}
+
+#btn2:hover {
+  width: 9rem;
+  color: #000;
+}
+
+.r2 {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+
+.col {
+  height: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 0px;
+}
+
+.brand {
+  margin-top: 2.5rem;
+  margin-left: 0.6rem;
+}
+
+.head {
+  margin-top: 3rem;
+}
+
+.list {
+  padding-left: 0px;
+  line-height: 2.5rem;
+}
+
+.brand {
+  width: 10rem;
+}
+
+.socialicon {
+  display: flex;
+  flex-direction: row;
+}
+
+.social {
+  display: inline-block;
+  width: 30px;
+  margin-left: 1rem;
+}
+
+.social:first-child {
+  margin-left: 0px;
+}
+
+.link1 {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  width: 2rem;
+  display: flex;
+}
+
+.link3 {
+  text-decoration: none;
+  color: black;
+}
+
+/* This is a  Home css */
+
+.r3 {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.col1 {
+
+  color: black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.col2 {
+  background: linear-gradient(to right, white 50%, #55b142 50%);
+  width: 400px;
+}
+
+.link2 {
+  text-decoration: none;
+  color: white;
+}
+
+.link2:hover {
+  color: #000;
+}
+
+#head2 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+#btn3 {
+  background-color: #55b142;
+  border: 1px solid #ddd;
+  border-radius: 3rem;
+  width: 10rem;
+  padding: 5px 0px;
+}
+
+#btn3:hover {
+
+  width: 11rem;
+}
+
+/* This is a About css */
+.icon4 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-color: #55b142;
+  border-radius: 50%;
+}
+
+.quote {
+  display: inline-block;
+  width: 120px;
+}
+
+.quote2 {
+  display: inline-block;
+  width: 120px;
+}
+
+.star {
+  margin-top: -2rem;
+}
+
+.row {
+  margin-top: 1rem !important;
+  margin: auto !important;
+
+}
+
+
+/* This is a car css */
+.icon5 {
+  height: 3rem;
+  margin: 0px;
+  padding: 0px;
+}
+
+.card1 {
+  width: 300px;
+  margin: auto;
+}
+
+.service {
+
+  justify-content: space-evenly;
+  padding: 1em;
+}
+
+.block {
+  text-align: center;
+}
+
+/* This is a FAQ css */
+.r4 {
+  padding-top: 5rem;
+  margin-bottom: 2rem !important;
+}
+
+#part {
+  background: linear-gradient(to right, white 50%, #55b142 50%);
+  border-radius: 1rem;
+}
+
+#vid {
+  width: 21rem;
+  height: 10rem;
+  margin-top: 2.5rem;
+  border-radius: 1rem;
+
+}
+
+/* This is a gro car1 */
+.tag {
+  display: inline-block;
+  width: 5rem;
+  background-color: #55b142;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.wish {
+  float: right;
+}
+
+.price {
+  color: #55b142
+}
+
+.star1 {
+  color: #55b142;
+  display: inline-block;
+  width: 32px;
+
+}
+
+
+span {
+  cursor: pointer;
+}
+
+.number {
+  margin: 100px;
+}
+
+.minus,
+.plus {
+  width: 20px;
+  height: 20px;
+  background: #f2f2f2;
+  border-radius: 4px;
+  padding: 8px 5px 8px 5px;
+  border: 1px solid #ddd;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+input {
+  height: 34px;
+  width: 100px;
+  text-align: center;
+  font-size: 26px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.part1 {
+  padding: 0px !important;
+}
+
+.num {
+  background-color: #55b142;
+  border-radius: .5em !important;
+  margin-left: .5em !important;
+  margin-right: .5em;
+  width: 3em;
+}
+
+.btn1 {
+  border: 1px solid grey !important;
+  width: 2em;
+  border-radius: .5em !important;
+}
+
+/* This is a carousle CSS */
+.heading {
+  display: flex;
+  justify-content: center;
+  font-weight: 1000;
+  margin-bottom: 0px;
+  padding: 1rem;
+  color: #000;
+}
+
+.card {
+  height: 27rem !important;
+}
+
+.car {
+  width: 100%;
+}
+
+.input-group {
+  justify-content: center;
+}
+
+.bghjHX {
+  margin: 0px 0px !important;
+}
+
+.cart1 {
+  display: inline-block;
+  width: 34px;
+  background-color: #55b142;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
+
+/* This is a offer zone CSS */
+
+.car2 {
+  background: linear-gradient(to left, #55b142 50vw, #ffff 50vw);
+}
+
+.off {
+  display: inline-block;
+  width: 400px;
+}
+
+.offz {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.zone {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.wc {
+  color: white;
+}
+
+.btn4 {
+  width: 8rem;
+  border: 1px solid #ddd;
+  border-radius: 1em;
+  background-color: #55b142;
+  color: #ffff;
+  margin-right: 5px;
+}
+
+
+/* This is a CSS for RWD */
+
+@media only screen and (max-width: 991px) {
+  .header {
+    background: none;
+  }
+
+  .top-header {
+    display: flex;
+    align-items: center;
+    gap: 0rem;
+    flex-direction: column;
+  }
+
+  .top {
+    width: 696px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .input {
+    width: 18rem;
+  }
+
+  .ricon {
+    display: flex;
+    align-items: center;
+    position: static;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .icon {
+    display: flex !important;
+  }
+
+  .name {
+    display: block;
+    margin-left: 1em;
+  }
+
+  .d-flex {
+
+    position: static;
+  }
+
+  .r2 {
+    display: grid !important;
+    grid-template-rows: 270px 250px;
+    grid-template-columns: 350px 350px;
+    gap: 0rem;
+  }
+
+  .bot-header {
+    position: static;
+    right: 0rem;
+  }
+
+  .r4 {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+  }
+
+  #part {
+    height: 16rem;
+    margin-top: 2rem;
+  }
+
+  #vid {
+    width: 30rem;
+    height: 13rem;
+    margin-top: 1.5rem;
+  }
+
+  .card-footer {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .num {
+    width: 2rem;
+  }
+
+  .card {
+    height: 25rem !important;
+  }
+
+  .bghjHX {
+    margin: 0px 0px !important;
+  }
+
+  .bPiMDL {
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%) !important;
+    grid-template-rows: repeat(1, 1fr) !important;
+    grid-gap: 5px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  .top {
+    width: 516px;
+  }
+
+  .d-flex {
+    position: static;
+  }
+
+  .ricon {
+    display: flex;
+    align-items: center;
+    position: static;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .icon {
+    display: flex !important;
+  }
+
+  .bot-hearder {
+    margin-top: 1em;
+  }
+
+  .name {
+    display: block;
+    margin-left: 1em;
+  }
+
+  #vid {
+    width: 25rem;
+  }
+
+  .r2 {
+    display: grid !important;
+    grid-template-rows: 270px 250px;
+    grid-template-columns: 250px 250px;
+    gap: 0rem;
+  }
+
+  .joZkvF {
+    grid-template-columns: repeat(4, 52%) !important;
+    grid-template-rows: 1fr;
+  }
+
+  .bROJit {
+    padding-left: 5px;
+    grid-template-columns: repeat(2, 90%);
+    grid-column-gap: calc(100% + 5px) !important;
+
+  }
+
+  #btn2 {
+
+    position: relative;
+    left: 8.6rem;
+    bottom: 2.2rem;
+    padding: 5px 0px;
+  }
+  .bPiMDL {
+    grid-template-columns: repeat(3,100%) !important;
+    grid-template-rows: 1fr !important;
+}
+.btn4 {
+
+  margin-bottom: 5px;
+}
+  
+}
+
+@media only screen and (max-width: 575px) {
+  .top {
+    width: 428px;
+  }
+
+  .input5 {
+    width: 12rem;
+  }
+
+  #vid {
+    width: 23rem;
+  }
+
+  .part2 {
+    text-align: center;
+  }
+
+  .r2 {
+    display: grid !important;
+    grid-template-rows: 270px 250px;
+    grid-template-columns: 230px 230px;
+    gap: 0rem;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .top {
+    width: 300px;
+  }
+
+  a.logo {
+    width: 5rem;
+  }
+
+  .sea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  a.put {
+    position: relative;
+    left: 4rem;
+    bottom: 1.8rem;
+  }
+
+  .r2 {
+    display: grid;
+    grid-template-rows: 270px 180px 150px 230px;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .brand {
+    margin-left: 0px;
+  }
+
+  .head {
+    margin-top: 0px;
+  }
+
+  #vid {
+    width: 15rem;
+    height: 10rem;
+    margin-top: 3rem;
+  }
+
+  #btn2 {
+    position: static;
+    margin-top: 1rem;
+  }
+}
