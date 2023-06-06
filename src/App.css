@@ -13,95 +13,99 @@ li {
 }
 
 a {
-  text-decoration: none !important;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--prime-color);
+}
+
+:root {
+  --prime-color: #55b142;
+  --white-color: #fff;
+  --darkgrey-color: #000000;
 }
 
 /* This is a nav css */
 .header {
-  background: linear-gradient(to bottom, white 50%, black 50%);
+  background: linear-gradient(to bottom, white 60%, #55b142 40%);
+  padding: 0px;
 }
 
 .top-header {
   display: flex;
   align-items: center;
   gap: 5rem;
+  margin: 10px 0px;
 }
 
-.input5 {
-  border: 1px solid #ddd;
-  height: 2rem;
-  border-radius: 4px;
+a.logo {
+  display: block;
+  width: 8rem;
+  padding: 0px;
+}
+
+.sea-btn {
+  border: 1px solid var(--white-color);
+  background-color: var(--prime-color);
+  padding: 6px 5px;
+  color: var(--darkgrey-color);
+  color: var(--darkgrey-color);
+}
+
+.sea-btn:hover {
+  color: var(--white-color);
+}
+
+.sea-in {
   width: 10rem;
+  padding: 3px 3px;
 }
 
-.d-flex {
+.track {
+  display: flex;
   position: relative;
   left: 36rem;
-  bottom: 3.2rem;
+  bottom: 53px;
   align-items: center;
+}
+
+.track-in {
+  padding: 3px 3px;
 }
 
 .ricon {
   display: flex;
   align-items: center;
   position: relative;
-  bottom: 2.8rem;
+  bottom: 53px;
   right: 0rem;
-}
-
-a.logo {
-  display: block;
-  width: 8rem;
 }
 
 .name {
   display: none;
 }
 
-a.put {
-  position: relative;
-  right: 1.5rem;
-}
-
-.btn {
-  border: 1px solid #ddd !important;
-  height: 2rem !important;
-  border-radius: 4px !important;
-  background-color: #55b142 !important;
-}
-
 .icon {
-  margin: 0px;
+  margin: 5px;
   padding: 0px;
   width: 2rem;
 }
 
-
-.bot-header {
-  position: relative;
-  right: 15rem;
-  color: white;
-  /* background-color: #000; */
-}
-
-.tab {
-
-  color: white !important;
-}
-
 .tab {
   margin-left: 2rem;
-  color: #55b142 !important;
+  color: var(--darkgrey-color);
   text-decoration: none;
+  padding: 0px;
 }
 
 .tab:hover {
-  color: white !important;
+  color: var(--white-color);
 }
 
 .opt {
-  background-color: white;
-  color: black;
+  background-color: var(--white-color);
+  color: var(--darkgrey-color);
 }
 
 #support {
@@ -109,29 +113,31 @@ a.put {
 }
 
 #icon3 {
-  color: white;
+  color: var(--white-color);
   text-decoration: none;
 }
 
 /* This is a footer css ; */
 
 .foot1 {
-  background-color: #55b142;
+  background-color: var(--prime-color);
   margin-top: 3rem;
 }
 
 .r1 {
   height: 250px;
   display: flex;
+  flex-direction: column;
   align-content: center;
   justify-content: center;
+  align-items: center;
 }
 
 .head1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  color: white;
+  color: var(--white-color);
 }
 
 #input3 {
@@ -141,27 +147,27 @@ a.put {
   width: 25rem;
   border-radius: 1em;
   border: none;
+  padding-left: 10px;
 }
 
 #btn2 {
   width: 8rem;
-  border: 1px solid #ddd;
+  border: 1px solid var(--white-color);
   border-radius: 1em;
-  background-color: #55b142;
-  color: #ffff;
+  background-color: var(--prime-color);
+  color: var(--white-color);
   position: relative;
-  right: 1.5rem;
+  left: 8.5rem;
+  bottom: 25px;
 }
 
 #btn2:hover {
   width: 9rem;
-  color: #000;
+  color: var(--darkgrey-color);
 }
 
 .r2 {
-  display: flex;
   justify-content: center;
-  margin: 0px;
 }
 
 .col {
@@ -175,6 +181,11 @@ a.put {
 .brand {
   margin-top: 2.5rem;
   margin-left: 0.6rem;
+}
+
+span.socialicons {
+  display: inline-block;
+  margin: 14px 0px;
 }
 
 .head {
@@ -207,20 +218,22 @@ a.put {
 
 .link1 {
   text-decoration: none;
-  color: black;
+  color: var(--darkgrey-color);
   display: inline-block;
   width: 2rem;
   display: flex;
+  line-height: 2.5rem;
 }
 
 .link3 {
   text-decoration: none;
-  color: black;
+  color: var(--darkgrey-color);
 }
 
 /* This is a  Home css */
 
 .r3 {
+  height: 80vh;
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: center;
@@ -228,8 +241,7 @@ a.put {
 }
 
 .col1 {
-
-  color: black;
+  color: var(--darkgrey-color);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -245,11 +257,11 @@ a.put {
 
 .link2 {
   text-decoration: none;
-  color: white;
+  color: var(--white-color);
 }
 
 .link2:hover {
-  color: #000;
+  color: var(--darkgrey-color);
 }
 
 #head2 {
@@ -258,15 +270,14 @@ a.put {
 }
 
 #btn3 {
-  background-color: #55b142;
-  border: 1px solid #ddd;
+  background-color: var(--prime-color);
+  border: 1px solid var(--white-color);
   border-radius: 3rem;
   width: 10rem;
   padding: 5px 0px;
 }
 
 #btn3:hover {
-
   width: 11rem;
 }
 
@@ -275,7 +286,7 @@ a.put {
   display: inline-block;
   width: 200px;
   height: 200px;
-  background-color: #55b142;
+  background-color: var(--prime-color);
   border-radius: 50%;
 }
 
@@ -293,12 +304,6 @@ a.put {
   margin-top: -2rem;
 }
 
-.row {
-  margin-top: 1rem !important;
-  margin: auto !important;
-
-}
-
 
 /* This is a car css */
 .icon5 {
@@ -313,9 +318,11 @@ a.put {
 }
 
 .service {
+  justify-content: center;
+}
 
-  justify-content: space-evenly;
-  padding: 1em;
+.ser-head {
+  padding-top: 25px;
 }
 
 .block {
@@ -325,7 +332,6 @@ a.put {
 /* This is a FAQ css */
 .r4 {
   padding-top: 5rem;
-  margin-bottom: 2rem !important;
 }
 
 #part {
@@ -345,7 +351,7 @@ a.put {
 .tag {
   display: inline-block;
   width: 5rem;
-  background-color: #55b142;
+  background-color: var(--prime-color);
   padding-left: 10px;
   border-radius: 5px;
 }
@@ -355,11 +361,11 @@ a.put {
 }
 
 .price {
-  color: #55b142
+  color: var(--prime-color);
 }
 
 .star1 {
-  color: #55b142;
+  color: var(--prime-color);
   display: inline-block;
   width: 32px;
 
@@ -378,24 +384,13 @@ span {
 .plus {
   width: 20px;
   height: 20px;
-  background: #f2f2f2;
+  background: var(--white-color);
   border-radius: 4px;
   padding: 8px 5px 8px 5px;
-  border: 1px solid #ddd;
+  border: 1px solid var(--white-color);
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-}
-
-input {
-  height: 34px;
-  width: 100px;
-  text-align: center;
-  font-size: 26px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  display: inline-block;
-  vertical-align: middle;
 }
 
 .part1 {
@@ -403,11 +398,12 @@ input {
 }
 
 .num {
-  background-color: #55b142;
+  background-color: var(--prime-color);
   border-radius: .5em !important;
   margin-left: .5em !important;
   margin-right: .5em;
   width: 3em;
+  text-align: center;
 }
 
 .btn1 {
@@ -423,7 +419,7 @@ input {
   font-weight: 1000;
   margin-bottom: 0px;
   padding: 1rem;
-  color: #000;
+  color: var(--darkgrey-color);
 }
 
 .card {
@@ -445,7 +441,7 @@ input {
 .cart1 {
   display: inline-block;
   width: 34px;
-  background-color: #55b142;
+  background-color: var(--prime-color);
   border-radius: 8px;
   border: 1px solid gray;
 }
@@ -475,15 +471,15 @@ input {
 }
 
 .wc {
-  color: white;
+  color: var(--white-color);
 }
 
 .btn4 {
   width: 8rem;
-  border: 1px solid #ddd;
+  border: 1px solid var(--white-color);
   border-radius: 1em;
-  background-color: #55b142;
-  color: #ffff;
+  background-color: var(--prime-color);
+  color: var(--white-color);
   margin-right: 5px;
 }
 
@@ -529,7 +525,7 @@ input {
     margin-left: 1em;
   }
 
-  .d-flex {
+  .track {
 
     position: static;
   }
@@ -599,7 +595,7 @@ input {
     width: 516px;
   }
 
-  .d-flex {
+  .track {
     position: static;
   }
 
@@ -654,15 +650,17 @@ input {
     bottom: 2.2rem;
     padding: 5px 0px;
   }
-  .bPiMDL {
-    grid-template-columns: repeat(3,100%) !important;
-    grid-template-rows: 1fr !important;
-}
-.btn4 {
 
-  margin-bottom: 5px;
-}
-  
+  .bPiMDL {
+    grid-template-columns: repeat(3, 100%) !important;
+    grid-template-rows: 1fr !important;
+  }
+
+  .btn4 {
+
+    margin-bottom: 5px;
+  }
+
 }
 
 @media only screen and (max-width: 575px) {
@@ -699,17 +697,13 @@ input {
     width: 5rem;
   }
 
-  .sea {
+  .search {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  a.put {
-    position: relative;
-    left: 4rem;
-    bottom: 1.8rem;
-  }
+
 
   .r2 {
     display: grid;
