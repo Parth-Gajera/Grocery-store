@@ -1,14 +1,12 @@
 import React from 'react';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.js';
+
 
 import Nav from './Nav';
 import Footer from './Footer';
 
 
-// import pre from '../img/pre.png'
-// import nxt from '../img/nxt.png'
+
 import lemon from '../img/lemon.png'
 import apple from '../img/apple.png'
 import almond from '../img/almond.png'
@@ -21,7 +19,7 @@ function Offer() {
 			<div className='container' >
 
 				<div>
-					<h1>OFFER ZONE</h1>
+					<h1 style={{ padding: '.5em 0em' }}>OFFER ZONE</h1>
 				</div>
 
 				<div id="carouselExampleRide" class="carousel slide car2" data-bs-ride="true" >
@@ -81,7 +79,7 @@ function Offer() {
 				</div>
 
 			</div>
-				<Footer />
+			<Footer />
 		</div>
 	)
 
